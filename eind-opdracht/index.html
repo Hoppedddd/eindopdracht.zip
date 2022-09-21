@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <img src="assets/images/Skull.gif" alt="" />
+      <h1> Welkom!</h1>
+    </div>
+    <div id="content">
+      <h2>Over Mij</h2>
+      <div id="intro">
+        Mijn naam is Ahmet ik woon in utrecht met mijn ouders en zus.
+        hobby's zijn gamen coderen.<p>  &#128525; &#128525;</p>
+      </div>
+      <div id="overig">
+
+      </div>
+      <div id="kennis">
+
+        <li>html</li>
+        <li>PhP</li>
+        <li>Python</li>
+        </ul>
+      </div>
+    </div>
+    <div id="experimental">
+      <p>Experimental zone</p> <br>
+      <script type="text/javascript">
+
+        today = new Date();
+
+        BigDay = new Date("june 22, 2023");
+
+        msPerDay = 24 * 60 * 60 * 1000;
+
+        timeLeft = (BigDay.getTime() - today.getTime());
+
+        e_daysLeft = timeLeft / msPerDay;
+
+        daysLeft = Math.floor(e_daysLeft);
+
+        e_hrsLeft = (e_daysLeft - daysLeft) * 24;
+
+        hrsLeft = Math.floor(e_hrsLeft);
+
+        minsLeft = Math.floor((e_hrsLeft - hrsLeft) * 60);
+
+        document.write("There are only<BR> <H4>" + daysLeft + " days " + hrsLeft + " hours and " + minsLeft + " minutes left </H4> Before my birthday<P>");
+
+      </script>
+
+
+
+
+
+
+    </div>
+    <div id="footer">
+
+      &copy; 2022
+
+      <ul>
+        <li>
+          <a href="#" title="Instagram"><img id="instagram" src="assets/img/instagram.png" alt="Instagram" /></a>
+        </li>
+        <li>
+          <a href="#" title="Youtube"><img id="youtube" src="assets/img/youtube.png" alt="Youtube" /></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
